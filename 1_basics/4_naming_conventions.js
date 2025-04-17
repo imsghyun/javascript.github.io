@@ -15,3 +15,17 @@ const _hyun = '임승현'
 console.log(name);
 console.log($ance);
 console.log(_hyun);
+
+// let 1name = 'no';
+// let const = 'attention;
+
+/**
+ * Naming Convention 2
+ * 
+ * 1) camelCase -> 대부분의 언어에서 많이 사용
+ * 2) snake_case -> 파이썬같은 언어에서 사용
+ * 3) PascalCase -> C# 마이크로스프트 계열의 언어에서 사용함 (잘 사용 안함)
+ */
+// 임승현
+const imSeungHyun = '임승현';
+console.log(imSeungHyun);
