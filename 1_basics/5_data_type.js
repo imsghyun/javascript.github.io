@@ -53,4 +53,115 @@ console.log(seunghyun);
  * 2) tab -> \t
  * 3) 백슬래시를 스트링으로 표현하고 싶다면 두 번 입력하면 된다.
  */
-const stuSeungHyun = '학생승현' 
+const stuSeungHyun = '학생\n승현' 
+console.log(stuSeungHyun);
+const stuSH = '학생\tㅅㅎ';
+console.log(stuSH);
+const backSlash = '학생\\임승현'
+console.log(backSlash);
+const smallQutoation = '학생\'임승현';
+console.log(smallQutoation);
+
+const student1 = `학생1" /////
+승현`;
+console.log(student1);
+
+console.log(typeof student1);
+
+const groupName = '학생';
+console.log(groupName + '임승현');
+console.log(`${groupName} 임승현`);
+console.log('--------------------');
+
+/**
+ * Boolean 타입
+ */
+const isTrue = true;
+const isFalse= false;
+console.log(typeof isTrue);
+console.log(typeof isFalse);
+
+/**
+ * undefined
+ * 
+ * 사용자가 직접 값을 초기화하지 않았을때
+ * 지정되는 값이다.
+ * 
+ * 직접 undefined로 값을 초기화하는건 지양해야한다.
+ */
+let noInit;
+console.log(noInit);
+console.log(typeof noInit);
+
+/**
+ * null 타입
+ * 
+ * undefined와 마찬가지로 값이 없다는 뜻이나
+ * JS에서는 개발자가 명시적으로 없는 값으로 초기화할때
+ * 사용된다.
+ */
+let init = null;
+console.log(init);
+console.log(typeof init);
+
+/**
+ * Symbol 타입
+ * 
+ * 유일무이한 값을 생성할때 사용한다.
+ * 다른 프리미티브 값들과 다르게 Symbol 함수를
+ * 호출해서 사용한다.
+ */
+const test1 = '1';
+const test2 = '1';
+
+console.log(test1 === test2);
+
+const symbol1 = Symbol('1');
+const symbol2 = Symbol('1');
+
+console.log(symbol1 === symbol2);
+
+/**
+ * Object 타입
+ * 
+ * Map
+ * 키:벨류의 쌍으로 이루어져 있다.
+ * key:value
+ */
+const dictionary= {
+    red:'빨간색',
+    orange:'주황색',
+    yellow:'노란색'
+};
+console.log(dictionary);
+console.log(dictionary['red']);
+console.log(dictionary['orange']);
+console.log(dictionary['yellow']);
+
+console.log(typeof dictionary);
+
+/**
+ * Array 타입
+ * 
+ * 값을 리스트로 나열 할 수 있는 타입이다.
+ */
+const bandMembersArray = [
+    '최준영',
+    '양승연',
+    '박성호',
+    '이정열',
+];
+console.log(bandMembersArray);
+
+/**
+ * index
+ * 
+ * 0부터 시작한다.
+ * 1씩 올라갑니다.
+ */
+console.log(bandMembersArray[0]);
+console.log(bandMembersArray[3]);
+
+bandMembersArray[0]= '임승현';
+console.log(bandMembersArray);
+console.log(typeof bandMembersArray);
