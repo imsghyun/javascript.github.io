@@ -31,4 +31,5 @@ console.log(typeof (Infinity).toString(), (Infinity).toString());
 
 // 숫자 타입으로 변환
 console.log(typeof parseInt('0'), parseInt('0'));
-console.log(typeof parseInt('0.99'), parseFloat('0'));
+console.log(typeof parseInt('0.99'), parseFloat('0.99'));
+console.log(typeof + '1',+'1');
