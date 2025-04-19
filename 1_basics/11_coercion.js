@@ -38,4 +38,7 @@ console.log('-----------');
 /**
  * Boolean 타입으로의 변환
  */
-console.log(!!'x');
+console.log(!!'x'); // string 안에 어떤 값이 있더라도 true, 값이 없을 때 false
+
+console.log(!!0);
+console.log(!!'0');
