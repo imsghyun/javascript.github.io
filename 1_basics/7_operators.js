@@ -202,3 +202,25 @@ console.log(true && '학생');
 
 console.log(true && true && '학생');
 console.log(true && false && '학생');
+
+/**
+ * 지수 연산자
+ */
+console.log(2 ** 2);
+console.log(10 ** 3);
+
+/**
+ * null 연산자
+ */
+let name;
+console.log(name);
+
+name = name ?? '임승현';
+console.log(name);
+
+name = name ??'승현';
+console.log(name);
+
+let name2;
+name2 ??= '임승현';
+console.log(name2);
