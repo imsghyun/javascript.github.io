@@ -38,7 +38,24 @@ console.log('-----------');
 /**
  * Boolean 타입으로의 변환
  */
-console.log(!!'x'); // string 안에 어떤 값이 있더라도 true, 값이 없을 때 false
+console.log(!!'adafgagjltkl'); // string 안에 어떤 값이 있더라도 true, 값이 없을 때 false
+console.log(!!'');// 아무것도 없을 때 false
+ 
 
-console.log(!!0);
-console.log(!!'0');
+console.log(!!0); 
+console.log(!!'0');// 0이라는 string은 트루
+console.log(!!'false');
+console.log(!!false); 
+console.log(!!undefined); 
+console.log(!!null);
+
+console.log(!!{});//object는 무조건 true
+console.log(!!{});//array는 무조건 true
+
+/**
+ *  1) 아무 글자도 없는 String
+ *  2) 값이 없는 경우
+ *  3) 0
+ * 
+ *  모두 false를 반환한다.
+ */
